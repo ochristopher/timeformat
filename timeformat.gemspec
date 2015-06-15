@@ -6,11 +6,11 @@ require 'timeformat/version'
 Gem::Specification.new do |spec|
   spec.name          = "timeformat"
   spec.version       = Timeformat::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Christopher Onyeidnma"]
   spec.email         = ["TODO: Write your email address"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{simple gem to format date time object.}
+  spec.description   = %q{this gem is created to help format simple datetime string ( 2015-06-15 08:57:09 UTC) in to readable date and time format. }
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
