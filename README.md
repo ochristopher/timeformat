@@ -1,8 +1,6 @@
 # Timeformat
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/timeformat`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the time format gem! this gem is created to help format simple datetime string ( 2015-06-15 08:57:09 UTC) in to readable date and time format. WIP(work in progress)
 
 ## Installation
 
@@ -20,9 +18,33 @@ Or install it yourself as:
 
     $ gem install timeformat
 
-## Usage
+## Usage (Basic)
 
-TODO: Write usage instructions here
+def project_start(time_object)
+  time_object = "2015-06-15 08:57:09 UTC"
+end
+
+
+...............      Date only            .......................................
+co_day(time_object) = mon                  co_Day(time_object) = Monday
+co_month(time_object) = Jun                co_Month(time_object) = June
+co_year(time_object) = 15                  co_Month(time_object) = 2015
+
+
+...............      FullDate              ............................................
+co_FullDate(time_object) = 06/11/2015
+co_FullDate_DMY(time_object) = 11-june-2015     ...: use DMY at the end : (Day,Month,Year)
+
+
+...............        Time                ............................................
+co_am_pm(time_object) = 08:57 am            co_AM_PM(time_object) = 08:57 AM
+co_hour_12(time_object) = 08:57 am          co_hour_24(time_object) = 08:57 AM (20:57 pm)
+co_minute(time_object) = :57          
+co_Secound(time_object) = :09 
+
+
+MORE FORMATS TO COME ..  (work in progress )
+
 
 ## Development
 
