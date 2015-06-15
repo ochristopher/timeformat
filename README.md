@@ -59,6 +59,21 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 1. Fork it ( https://github.com/[my-github-username]/timeformat/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
+
+  Add your own custom methods to :  ' lib/timeformat/formats.rb'   
+
+  ```ruby
+  def custom_format(datetime_object)
+    datetime_object.to_time.strftime("%D:%M %Y" ... )
+  end
+  ```
+  
+  *** Usage :
+
+  ```ruby
+  custom_format(project_start_time)
+  ```
+
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 # timeformat
