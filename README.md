@@ -27,21 +27,21 @@ end
 
 
 <!-- ...............      Date only            ....................................... -->
-co_day(time_object) = mon                  co_Day(time_object) = Monday
-co_month(time_object) = Jun                co_Month(time_object) = June
-co_year(time_object) = 15                  co_Month(time_object) = 2015
+format_day(time_object) = mon                  format_Day(time_object) = Monday
+format_month(time_object) = Jun                format_Month(time_object) = June
+format_year(time_object) = 15                  format_year(time_object) = 2015
 
 <!-- ...............      FullDate              ............................................ -->
-co_FullDate(time_object) = 06/11/2015
+format_FullDate(time_object) = 06/11/2015
 
-co_FullDate_DMY(time_object) = 11-june-2015     ...: use DMY at the end : (Day,Month,Year)
+format_FullDate_DMY(time_object) = 11-june-2015     ...: use DMY at the end : (Day,Month,Year)
 
 
 <!-- ...............        Time                ............................................-->
-co_am_pm(time_object) = 08:57 am            co_AM_PM(time_object) = 08:57 AM
-co_hour_12(time_object) = 08:57 am          co_hour_24(time_object) = 08:57 AM (20:57 pm)
-co_minute(time_object) = :57          
-co_Secound(time_object) = :09 
+format_am_pm(time_object) = 08:57 am            format_AM_PM(time_object) = 08:57 AM
+format_hour_12(time_object) = 08:57 am          format_hour_24(time_object) = 08:57 AM (20:57 pm)
+format_minute(time_object) = :57          
+format_Secound(time_object) = :09 
 
 ```
 
