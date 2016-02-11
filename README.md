@@ -1,6 +1,6 @@
 # Timeformat
 
-Welcome to the time format gem! this gem is created to help format simple datetime string ( 2015-06-15 08:57:09 UTC) in to readable date and time format. WIP(work in progress)
+Welcome to the time format gem! this gem is created to help format simple datetime string ( 2015-06-15 08:57:09 UTC) in to readable date and time format. (work in progress)
 
 ## Installation
 
@@ -56,7 +56,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/timeformat/fork )
+1. Fork it ( https://github.com/ochristopher/timeformat/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 
@@ -66,12 +66,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
   def custom_format(datetime_object)
     datetime_object.to_time.strftime("%D:%M %Y" ... )
   end
-  ```
-  
-  *** Usage :
-
-  ```ruby
-  custom_format(project_start_time)
   ```
 
 4. Push to the branch (`git push origin my-new-feature`)

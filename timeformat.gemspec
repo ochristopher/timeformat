@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "timeformat"
   spec.version       = Timeformat::VERSION
   spec.authors       = ["Christopher Onyeidnma"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.email         = ["ochristopher@hotmail.co.uk"]
 
   spec.summary       = %q{simple gem to format date time object.}
   spec.description   = %q{this gem is created to help format simple datetime string ( 2015-06-15 08:57:09 UTC) in to readable date and time format. }
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/ochristopher/timeformat"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
